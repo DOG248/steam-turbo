@@ -1,0 +1,5 @@
+{
+    "id": "", "_comment": "steam id you're trying to get",
+    "delay": "", "_comment": "delay of the requests (ms)",
+    "debug": "", "_comment": "displays the count. 0 to turn off"
+ }
