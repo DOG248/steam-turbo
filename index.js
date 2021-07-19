@@ -32,7 +32,6 @@ doLogin(targetUser, targetPass);
 function jetEngine() {
     try {
         request("http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=" + apiKey + "&vanityurl=" + targetID, function (error, response, body) {
-            console.log(body);
             if (body.indexOf(targetString) > -1) {
                 claim();
             }
